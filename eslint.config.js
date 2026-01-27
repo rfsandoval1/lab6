@@ -1,8 +1,7 @@
-import { isExclamationToken } from "typescript";
 
 export default[
     {
-        files:['*/*'],
+        files:['**/**'],
         languajeOptions:{
             ecmaVersion:'latest',
             sourceType:'module'

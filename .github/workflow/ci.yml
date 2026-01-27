@@ -19,6 +19,10 @@ jobs:
 
     - name: Lint del codigo
       run: npm run lint
-      
+
     - name: Ejecutar pruebas
       run: npm test
+
+    - name: Simular despliegue
+      run: |
+        echo "Despliegue simulado: la apliacion paso Lint y pruebas exitosamente."

@@ -1,14 +1,14 @@
 
-export default[
+export default [
     {
-        files:['**/**'],
-        languajeOptions:{
-            ecmaVersion:'latest',
-            sourceType:'module'
+        files: ['**/**'],
+        languageOptions: {
+            ecmaVersion: 'latest',
+            sourceType: 'module'
         },
-        rules:{
-            semi:['error','always'],
-            quote:['error','single']
+        rules: {
+            semi: ['error', 'always'],
+            quotes: ['error', 'single']
         }
     }
-]
+];

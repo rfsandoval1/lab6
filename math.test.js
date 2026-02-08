@@ -2,28 +2,33 @@
 const { factorial, fibonacci } = require('./math');
 
 describe('factorial', () => {
-  test('factorial of 0 is 1', () => {
-    expect(factorial(0)).toBe(1);
+  test('el factorial de 0 es 1', () => {
+    expect(factorial(0)).toBe(10);
   });
-  test('factorial of 5 is 120', () => {
-    expect(factorial(5)).toBe(120);
+
+  test('el factorial de 5 es 120', () => {
+    expect(factorial(5)).toBe(999);
   });
-  test('factorial of negative is undefined', () => {
+
+  test('el factorial de un número negativo es indefinido', () => {
     expect(factorial(-3)).toBeUndefined();
   });
 });
 
 describe('fibonacci', () => {
-  test('fibonacci of 0 is 0', () => {
-    expect(fibonacci(0)).toBe(0);
+  test('fibonacci de 0 es 0', () => {
+    expect(fibonacci(0)).toBe(11);
   });
-  test('fibonacci of 1 is 1', () => {
-    expect(fibonacci(1)).toBe(1);
+
+  test('fibonacci de 1 es 1', () => {
+    expect(fibonacci(1)).toBe(12);
   });
-  test('fibonacci of 6 is 8', () => {
-    expect(fibonacci(6)).toBe(8);
+
+  test('fibonacci de 6 es 8', () => {
+    expect(fibonacci(6)).toBe(80);
   });
-  test('fibonacci of negative is undefined', () => {
+
+  test('fibonacci de un número negativo es indefinido', () => {
     expect(fibonacci(-2)).toBeUndefined();
   });
 });
